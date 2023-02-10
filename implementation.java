@@ -16,7 +16,7 @@ import java.util.ArrayList;
 // java main
 public class implementation {
     public static void main(String[] args) {
-        // Check if the .gitlet folder exists
+        // Check if the .git2 folder exists
         if (Files.exists(Paths.get(".git2"))) {
             // If it does, check if the command is valid
             if (args[0].equals("init")) {
